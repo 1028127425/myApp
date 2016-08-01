@@ -1,0 +1,192 @@
+{
+	"version": "0.0.6",
+	"protocol": [
+		"http",
+		"https"
+	],
+	"rooturl": "",
+	"index": {
+		"href": "pages/index.html",
+		"resources": [
+			"manifest.json",
+			"mui/css/mui.min.css",
+			"mui/fonts/mui.ttf",
+			"css/style.css",
+			"font-awesome/css/font-awesome.min.css",
+			"mui/js/mui.min.js",
+			"js/index.js",
+			"js/hotel-price-filter.js",
+			"common/page-helper.js",
+			"libs/vue.js",
+			"libs/utils.js",
+			"libs/ems.js",
+			"mui/js/mui.picker.min.js",
+			"mui/css/mui.picker.min.css",
+			"font-awesome/fonts/FontAwesome.otf",
+			"pages/blank.html",
+			"libs/ems-json.js",
+			"models/hotel.js",
+			"common/event-binder.js",
+			"js/tmpl-head.js",
+			"pages/tmpl-head.html",
+			".settings/com.aptana.editor.common.prefs",
+			"libs/jquery.js",
+			"controls/room-type-filter/ui.html",
+			"controls/hotel-price-filter/style.css",
+			"common/element-maper.js",
+			"controls/price-detail/ui.html",
+			"common/vue-filter.js",
+			"controls/booking-date/style.css",
+			"favicon.ico",
+			"libs/tp.js",
+			"controls/booking-date/ui.html",
+			"css/price-detail.css",
+			"controls/hotel-price-filter/ui.html",
+			"css/room-type-filter.css",
+			"controls/room-type-filter/main.js",
+			"controls/price-detail/main.js",
+			"controls/booking-date/main.js",
+			"models/service.js",
+			"js/booking-done.js",
+			"libs/ems-text.js",
+			"images/hotel-loading.png",
+			"mui/js/mui.indexedlist.js",
+			"mui/css/mui.indexedlist.css",
+			"font-awesome/fonts/fontawesome-webfont.ttf",
+			"font-awesome/fonts/fontawesome-webfont.svg",
+			"font-awesome/fonts/fontawesome-webfont.eot",
+			"font-awesome/fonts/fontawesome-webfont.woff2",
+			"font-awesome/fonts/fontawesome-webfont.woff"
+		],
+		"refer": [
+			"pages/query-keyword.html",
+			"pages/city.html",
+			"pages/hotel-list.html",
+			"pages/hotel-info.html",
+			"pages/hotel-pic.html",
+			"pages/booking.html",
+			"pages/comment.html",
+			"pages/room-info.html",
+			"pages/hotel-detail.html",
+			"pages/query-filter.html",
+			"pages/area-filter.html"
+		],
+		"priority": 0
+	},
+	"pages": {
+		"pages/query-keyword.html": {
+			"href": "pages/query-keyword.html",
+			"resources": [
+				"js/query-keyword.js"
+			],
+			"priority": 0
+		},
+		"pages/city.html": {
+			"href": "pages/city.html",
+			"resources": [
+				"js/city.js"
+			],
+			"priority": 1
+		},
+		"pages/hotel-info.html": {
+			"href": "pages/hotel-info.html",
+			"resources": [
+				"js/hotel-info.js"
+			],
+			"priority": 2
+		},
+		"pages/hotel-pic.html": {
+			"href": "pages/hotel-pic.html",
+			"resources": [
+				"js/hotel-pic.js"
+			],
+			"priority": 3
+		},
+		"pages/hotel-detail.html": {
+			"href": "pages/hotel-detail.html",
+			"resources": [
+				"js/hotel-detail.js"
+			],
+			"refer": [],
+			"priority": 2
+		},
+		"pages/booking.html": {
+			"href": "pages/booking.html",
+			"priority": 7
+		},
+		"pages/order-detail.html": {
+			"href": "pages/order-detail.html",
+			"resources": [
+				"js/order-detail.js"
+			],
+			"refer": [
+				"pages/hotel-detail.html",
+				"js/booking.html"
+			],
+			"priority": 4
+		},
+		"pages/booking-done.html": {
+			"href": "pages/booking-done.html",
+			"resources": [
+				"js/booking.js"
+			],
+			"refer": [
+				"pages/order-detail.html"
+			],
+			"priority": 4
+		},
+		"pages/hotel-list.html": {
+			"href": "pages/hotel-list.html",
+			"resources": [
+				"js/hotel-list.js"
+			],
+			"refer": [
+				"pages/hotel-list-inner.html"
+			],
+			"priority": 2
+		},
+		"pages/comment.html": {
+			"href": "pages/comment.html",
+			"resources": [
+				"js/comment.js"
+			],
+			"priority": 6
+		},
+		"pages/room-info.html": {
+			"href": "pages/room-info.html",
+			"resources": [
+				"js/room-info.js"
+			],
+			"refer": [
+				"pages/booking.html"
+			],
+			"priority": 7
+		},
+		"pages/query-filter.html": {
+			"href": "pages/query-filter.html",
+			"resources": [
+				"js/query-filter.js"
+			],
+			"priority": 3
+		},
+		"pages/area-filter.html": {
+			"href": "pages/area-filter.html",
+			"resources": [
+				"js/area-filter.js"
+			],
+			"priority": 4
+		},
+		"pages/hotel-list-inner.html": {
+			"href": "pages/hotel-list-inner.html",
+			"resources": [
+				"js/hotel-list-inner.js"
+			],
+			"refer": [],
+			"priority": 2
+		}
+	},
+	"idle": {
+		"resources": [
+		]
+	}
+}
